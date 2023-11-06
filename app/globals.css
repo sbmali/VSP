@@ -2,26 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+/* body {
+  background-color: rgb(117, 104, 104);
+  color: black;
+  /* background-image: url('https://media.istockphoto.com/id/478735992/photo/spare-parts-car-on-the-white-background.jpg?s=612x612&w=0&k=20&c=vXqplmIYLqaXA7jB6DCv_ZQ1jV50JRJ8rlUfN-dOXGQ='); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-position: center center; */
+/* } */ 
